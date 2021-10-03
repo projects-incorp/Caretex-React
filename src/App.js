@@ -1,3 +1,5 @@
+// import Profile from "./Project/Profile/profile";
+
 function App() {
   return (
     <div>
@@ -10,6 +12,7 @@ function App() {
         >
           Caretex Homepage
         </a>
+        {/* <Profile /> */}
       </header>
     </div>
   );
