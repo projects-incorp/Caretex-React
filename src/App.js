@@ -1,8 +1,8 @@
-// import Profile from "./Project/Profile/profile";
+import Profile from "./Project/Profile/profile";
 
 function App() {
   return (
-    <div>
+    <div className="font-body">
       <header className="flex h-screen w-screen">
         <a
           className="m-auto text-5xl font-bold italic text-center"
