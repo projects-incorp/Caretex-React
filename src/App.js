@@ -1,9 +1,10 @@
+import { Checkout } from "./Project/Shipping/checkout";
 import Profile from "./Project/Profile/profile";
 
 function App() {
   return (
     <div className="font-body">
-      <header className="flex h-screen w-screen">
+      {/* <header className="flex h-screen w-screen">
         <a
           className="m-auto text-5xl font-bold italic text-center"
           href="https://reactjs.org"
@@ -12,8 +13,9 @@ function App() {
         >
           Caretex Homepage
         </a>
-        {/* <Profile /> */}
-      </header>
+        <Profile />
+      </header> */}
+      <Checkout />
     </div>
   );
 }
