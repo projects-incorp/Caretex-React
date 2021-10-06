@@ -1,5 +1,7 @@
 import Profile from "./Project/Profile/profile";
 import HomeScreen from "./Project/Homescreen/home";
+import Login from "./Project/Auth/login";
+import SignUp from "./Project/Auth/register";
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         </a>*/}
         {/* <HomeScreen/> */}
         {/* <Profile /> */}
+        {/* <Login/> */}
       </header>
     </div>
   );
