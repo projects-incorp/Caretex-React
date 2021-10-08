@@ -15,12 +15,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Caretex Homepage
+          {/* Caretex Homepage */}
 
         </a>}
-//         <Profile />
-        {/* <HomeScreen/> */}
-        {/* <Profile /> */}
+        <HomeScreen/>
+        {/* <Profile/> */}
         {/* <Login/> */}
 
       </header>

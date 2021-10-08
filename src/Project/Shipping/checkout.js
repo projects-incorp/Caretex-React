@@ -53,7 +53,7 @@ export const Checkout = () => {
               <input type='text' id='PIN' className='py-3 px-5 mt-1 w-1/4 rounded-xl bg-prim text-black font-semibold text-lg focus:border-none' placeholder='Postal Code'/>
             </div>
             <div className='flex gap-6 mt-8'>
-              <button className='py-3 px-6 rounded-xl uppercase font-semibold text-lg border-2 border-gray-900 bg-gray-900 text-prim hover:bg-prim hover:border-perfume hover:text-gray-900'>Save and Deleiver here</button>
+              <button className='py-3 px-6 rounded-xl uppercase font-semibold text-lg border-2 border-gray-900 bg-gray-900 text-prim hover:bg-prim hover:border-perfume hover:text-gray-900'>Save and Deliver here</button>
               <button className='py-3 px-6 rounded-xl uppercase font-semibold text-lg border-2 bg-prim border-perfume hover:bg-gray-900 hover:border-gray-900 hover:text-prim'>Cancel</button>
             </div>
           </div>
