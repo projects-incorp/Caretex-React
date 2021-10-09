@@ -105,7 +105,7 @@ export const Checkout = () => {
             <h1 className='text-lg font-semibold'>$XXX</h1>
           </div>
         </div>
-        <div className='min-h-min px-4 py-2 w-full flex content-center'>
+        <div className='min-h-min px-4 py-2 w-full h-full flex content-center'>
           <div className='w-2/5'>
             <h1 className='text-xl font-semibold'>Discount:</h1>
           </div>
