@@ -22,7 +22,8 @@ function App() {
         <HomeScreen/> */}
         {/* <Profile/> */}
         {/* <Login/> */}
-        <Checkout />
+        {/* <SignUp/> */}
+        {/* <Checkout /> */}
       </header>
     </div>
   );
