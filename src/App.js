@@ -2,7 +2,8 @@ import Profile from "./Project/Profile/profile";
 import HomeScreen from "./Project/Homescreen/home";
 import Login from "./Project/Auth/login";
 import SignUp from "./Project/Auth/register";
-import {Checkout} from "./Project/Shipping/checkout"
+import { Checkout } from "./Project/Shipping/checkout"
+import { OrderScreen } from './Project/Order/order'
 
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
         <HomeScreen/> */}
         {/* <Profile/> */}
         {/* <Login/> */}
-        {/* <SignUp/> */}
         {/* <Checkout /> */}
+        {/* <SignUp/> */}
+        <OrderScreen  />
       </header>
     </div>
   );
