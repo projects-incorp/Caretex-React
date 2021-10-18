@@ -19,9 +19,9 @@ function App() {
 
         </a>
         <HomeScreen/> */}
-        {/* <Login/> */}
+        <Login/>
         {/* <Profile/> */}
-        <SignUp/>
+        {/* <SignUp/> */}
         {/* <Checkout /> */}
       </header>
     </div>
