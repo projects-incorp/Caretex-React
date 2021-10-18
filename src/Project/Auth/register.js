@@ -20,9 +20,9 @@ export default function SignUp() {
   };
 
   return (
-    <div class="flex items-center min-h-screen bg-gradient-to-br from-blue-300 to-pink-200">
-      <div class="flex-1 h-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl">
-        <div class="flex flex-col md:flex-row">
+    <div class="flex items-center justify-center w-screen bg-gradient-to-br from-blue-300 to-pink-200">
+      <div class="flex-1  max-w-4xl mx-auto bg-white rounded-lg shadow-xl justify-center items-center">
+        <div class="flex flex-col md:flex-row sm:flex-col">
           <div class="h-32 md:h-auto md:w-1/2 bg-gradient-to-br from-blue-300 to-pink-200 place-items-center ">
             <img
               src="https://www.pinclipart.com/picdir/big/159-1590304_sign-up-illustration-illustration-sign-up-clipart.png"

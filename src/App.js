@@ -6,6 +6,7 @@ import { Checkout } from "./Project/Shipping/checkout"
 import { OrderScreen } from './Project/Order/order'
 
 
+
 function App() {
   return (
     <div className="font-body">
@@ -25,7 +26,7 @@ function App() {
         {/* <Login/> */}
         {/* <Checkout /> */}
         {/* <SignUp/> */}
-        <OrderScreen  />
+        <SignUp  />
       </header>
     </div>
   );
