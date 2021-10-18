@@ -21,7 +21,7 @@ export default function Trial() {
     <div class="flex justify-center items-center w-screen bg-gradient-to-br from-blue-300 to-pink-200">
       <div class="flex-1  max-w-4xl mx-auto bg-white rounded-lg shadow-xl  w-screen justify-center items-center" >
         <div class="flex flex-col md:flex-row sm:flex-col">
-          <div class="h-auto md:h-auto md:w-1/2 bg-gradient-to-br from-blue-300 to-pink-200 place-items-center ">
+          <div class="h-96 md:h-auto md:w-1/2 bg-gradient-to-br from-blue-300 to-pink-200 place-items-center ">
             <img
               src="https://slidro.com/media/2019/12/Login-Illustration.png"
               className="content-center animate-pulse mx-5 my-10 w-40 h-40"
