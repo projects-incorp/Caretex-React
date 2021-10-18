@@ -18,15 +18,15 @@ export default function Trial() {
   };
 
   return (
-    <div class="flex items-center min-h-screen bg-gradient-to-br from-blue-300 to-pink-200">
-      <div class="flex-1 h-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl">
-        <div class="flex flex-col md:flex-row">
-          <div class="h-32 md:h-auto md:w-1/2 bg-gradient-to-br from-blue-300 to-pink-200 place-items-center ">
+    <div class="flex justify-center items-center w-screen bg-gradient-to-br from-blue-300 to-pink-200">
+      <div class="flex-1  max-w-4xl mx-auto bg-white rounded-lg shadow-xl  w-screen justify-center items-center" >
+        <div class="flex flex-col md:flex-row sm:flex-col">
+          <div class="h-auto md:h-auto md:w-1/2 bg-gradient-to-br from-blue-300 to-pink-200 place-items-center ">
             <img
               src="https://slidro.com/media/2019/12/Login-Illustration.png"
               className="content-center animate-pulse mx-5 my-10 w-40 h-40"
             />
-            <blockquote className="text-2xl font-medium items-center	">
+            <blockquote className="text-2xl font-medium items-center 	">
               <p className="text-4xl italic font-mono transition duration-500 ease-in-out text-center ">
                 Welcome Back!
               </p>
@@ -38,7 +38,7 @@ export default function Trial() {
               </p>
             </blockquote>
           </div>
-          <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2  bg-gradient-to-br from-blue-400 to-pink-200">
+          <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2 bg-gradient-to-br from-blue-400 to-pink-200">
             <div class="w-full">
               <h1 class="text-4xl font-mono mb-4 text-center text-black-700">
                 Caretex

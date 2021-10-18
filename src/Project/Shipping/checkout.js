@@ -9,7 +9,7 @@ export const Checkout = () => {
             <h1 className='sm:text-lg text-base text-gray-500 uppercase'>User</h1>
             <h1 className='sm:text-xl text-lg font-semibold'>Name</h1>
           </div>
-          <button className='sm:text-lg text-base font-semibold px-3 h-12 uppercase sm:rounded-2xl rounded-xl border-2 bg-prim border-perfume hover:bg-gray-900 hover:border-gray-900 hover:text-gray-100 my-auto'>Change</button>
+          <button className='sm:text-lg text-base font-semibold px-3 h-12 uppercase sm:rounded-2xl rounded-xl border-2 bg-prim border-perfume hover:bg-gray-900 hover:border-gray-900 hover:text-gray-100 my-auto ease-linear transition-all duration-100'>Change</button>
         </div>
         <div className="rounded-xl sm:py-4 py-3 sm:px-8 px-4 bg-spindle shadow-md xl:mt-12 mt-8">
           <h1 className='text-lg font-semibold uppercase'>Shipping Address</h1>
@@ -53,8 +53,8 @@ export const Checkout = () => {
               <input type='text' id='PIN' className='sm:py-3 py-2 sm:px-5 px-3 mt-1 sm:w-1/4 w-1/2 sm:rounded-xl rounded-lg bg-prim text-black font-semibold sm:text-lg text-base focus:border-none' placeholder='Postal Code'/>
             </div>
             <div className='flex gap-6 sm:mt-8 mt-6'>
-              <button className='sm:py-3 py-2 sm:px-6 px-3 sm:rounded-xl rounded-lg uppercase font-semibold sm:text-lg text-base border-2 border-gray-900 bg-gray-900 text-prim hover:bg-prim hover:border-perfume hover:text-gray-900'>Save and Deliver here</button>
-              <button className='sm:py-3 py-2 sm:px-6 px-3 sm:rounded-xl rounded-lg uppercase font-semibold sm:text-lg text-base border-2 bg-prim border-perfume hover:bg-gray-900 hover:border-gray-900 hover:text-prim'>Cancel</button>
+              <button className='sm:py-3 py-2 sm:px-6 px-3 sm:rounded-xl rounded-lg uppercase font-semibold sm:text-lg text-base border-2 border-gray-900 bg-gray-900 text-prim hover:bg-prim hover:border-perfume hover:text-gray-900 ease-linear transition-all duration-100'>Save and Deliver here</button>
+              <button className='sm:py-3 py-2 sm:px-6 px-3 sm:rounded-xl rounded-lg uppercase font-semibold sm:text-lg text-base border-2 bg-prim border-perfume hover:bg-gray-900 hover:border-gray-900 hover:text-prim ease-linear transition-all duration-100'>Cancel</button>
             </div>
           </div>
         </form>
