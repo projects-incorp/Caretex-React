@@ -21,7 +21,7 @@ function App() {
 
         </a>
         <HomeScreen/> */}
-        <Login/>
+        {/* <Login/> */}
         {/* <Profile/> */}
         {/* <Login/> */}
         {/* <Checkout /> */}
