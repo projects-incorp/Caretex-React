@@ -26,7 +26,7 @@ function App() {
         {/* <Login/> */}
         {/* <Checkout /> */}
         {/* <SignUp/> */}
-        <SignUp  />
+        <Login  />
       </header>
     </div>
   );

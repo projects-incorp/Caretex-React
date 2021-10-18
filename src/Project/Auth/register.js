@@ -22,8 +22,8 @@ export default function SignUp() {
   return (
     <div class="flex items-center justify-center w-screen bg-gradient-to-br from-blue-300 to-pink-200">
       <div class="flex-1  max-w-4xl mx-auto bg-white rounded-lg shadow-xl justify-center items-center">
-        <div class="flex flex-col md:flex-row sm:flex-col">
-          <div class="h-32 md:h-auto md:w-1/2 bg-gradient-to-br from-blue-300 to-pink-200 place-items-center ">
+        <div class="flex flex-col md:flex-row sm:flex-col ">
+          <div class="h-96 md:h-auto md:w-1/2 bg-gradient-to-br from-blue-300 to-pink-200 place-items-center ">
             <img
               src="https://www.pinclipart.com/picdir/big/159-1590304_sign-up-illustration-illustration-sign-up-clipart.png"
               className="justify-center animate-pulse mx-20 my-10 w-40 h-40"
@@ -35,7 +35,7 @@ export default function SignUp() {
               <p className="text-sm italic font-mono text-center">
                 Enter your personal details and start
               </p>
-              <p className="text-sm italic font-mono text-center">
+              <p className="text-sm italic font-mono text-center ">
                 your journey with us
               </p>
             </blockquote>
