@@ -24,21 +24,23 @@ export default function SignUp() {
       <div class="flex-1  max-w-4xl mx-auto bg-white rounded-lg shadow-xl justify-center items-center">
         <div class="flex flex-col md:flex-row sm:flex-col ">
           <div class="h-96 md:h-auto md:w-1/2 bg-gradient-to-br from-blue-300 to-pink-200 place-items-center ">
-            <img
-              src="https://www.pinclipart.com/picdir/big/159-1590304_sign-up-illustration-illustration-sign-up-clipart.png"
-              className="justify-center animate-pulse mx-20 my-10 w-40 h-40"
-            />
-            <blockquote className="text-2xl font-medium items-center	">
-              <p className="text-4xl italic font-mono transition duration-500 ease-in-out text-center ">
-                Hello,Friend!
-              </p>
-              <p className="text-sm italic font-mono text-center">
-                Enter your personal details and start
-              </p>
-              <p className="text-sm italic font-mono text-center ">
-                your journey with us
-              </p>
-            </blockquote>
+            <div className="mt-24">
+              <img
+                src="https://www.pinclipart.com/picdir/big/159-1590304_sign-up-illustration-illustration-sign-up-clipart.png"
+                className="justify-center animate-pulse mx-20 my-10 w-40 h-40"
+              />
+              <blockquote className="text-2xl font-medium items-center	">
+                <p className="text-4xl italic font-mono transition duration-500 ease-in-out text-center ">
+                  Hello,Friend!
+                </p>
+                <p className="text-sm italic font-mono text-center">
+                  Enter your personal details and start
+                </p>
+                <p className="text-sm italic font-mono text-center ">
+                  your journey with us
+                </p>
+              </blockquote>
+            </div>
           </div>
           <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2  bg-gradient-to-br from-blue-400 to-pink-200">
             <div class="w-full">
